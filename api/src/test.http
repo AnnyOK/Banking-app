@@ -1,0 +1,9 @@
+POST http://localhost:27017
+Content-Type: application/json;charset=utf-8
+
+
+{
+  "senderAccount":09083757,
+  "amount":5000,
+  "recipients":093348392
+}
