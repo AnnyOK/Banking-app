@@ -1,0 +1,21 @@
+.nav{
+    display:flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    background-color:#4e515a;
+    color:#fff;
+    height:100vh;
+}
+.nav>a{
+    width:200px;
+    height:200px;
+    border:2px solid white;
+    border-style: double;
+    text-decoration: none;
+    color:whitesmoke;
+margin:auto auto;padding-top: auto;
+font-size:3rem;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+}

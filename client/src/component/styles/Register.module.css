@@ -1,0 +1,21 @@
+.p{margin:0;
+    width:none;
+    height: none;
+}
+.close{
+    margin:0;
+    padding: 0;
+    border:0px;
+    background-color:gray;
+    position:relative;
+
+}
+.toggle{
+    position:sticky;
+}
+.maindiv{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    background-color:#4e515a;
+}

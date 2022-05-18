@@ -23,7 +23,7 @@ const nanoid = (0, async_1.customAlphabet)("1234567890", 10);
 const reference = (0, async_1.customAlphabet)("1234567890abedefghijklmnopqrst", 30);
 function createNewUser(req, res) {
     return __awaiter(this, void 0, void 0, function* () {
-        const { firstName, lastName, email, password, phoneNumber, account } = req.body;
+        const { firstName, lastName, email, password, phoneNumber } = req.body;
         let newuserAccoutNo = yield nanoid();
         const saltPassword = yield bcrypt_1.default.genSalt(10);
         const securePassword = yield bcrypt_1.default.hash(password, saltPassword);
